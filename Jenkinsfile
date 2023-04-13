@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git checkout') {
             steps {
-                git 'https://github.com/testeroprogramowania/restassureddemo'
+                git branch: 'main', url: 'https://github.com/testerArek/restAssured.git'
             }
         }
 
